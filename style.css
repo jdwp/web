@@ -1,0 +1,573 @@
+@import url(reset.css);
+
+#wrapper{
+	min-width: 1000px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header {
+	top: 50px;
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	float: right;
+	padding-top: 4px;
+}
+
+.nav li {
+	float: left;
+	margin-right: 40px;
+  list-style-type: none;
+}
+.nav li:last-child {margin-right: 0}
+
+.nav a {
+	text-transform: uppercase;
+	font: 14px Arial, san-serif;
+	color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+	color: #fed136;
+}
+
+#home {
+	height: 700px;
+	background: #222 url(images/homebg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+#home .container {
+	padding-top: 270px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#home h3 {
+	font: 40px/40px arial, san-serif;
+	margin-bottom: 40px;
+}
+
+#home h1 {
+	font: 75px/75px arial, sanserif;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	background: #fed136;
+	padding: 20px 30px;
+	font: bold 24px  Arial, san-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background: #daae17;
+	color: #fff;
+}
+
+#services {
+	text-align: center;
+	height: 568px;
+}
+
+h2.title {
+    position: inherit;
+	font: bold 40px Arial, sans-serif;
+	color: #222222;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+    padding-top: 120px;
+}
+
+h5.title {
+	margin-bottom: 10px;
+	font: bold 18px Arial, sans-serif;
+	color: #222222;
+	margin-top: 25px;
+}
+
+.descr {
+	font-size: 16px;
+	color: #777777;
+  margin-bottom: 80px;
+}
+
+.services-item {
+	float: left;
+	width: 30.33%;
+	padding: 0 10px;
+	/*margin-top: 80px;*/
+}
+
+.services-item p {
+	font-size: 18px;
+	color: #777777;
+	line-height: 24px;
+}
+
+.portfolio {
+    position: relative;
+    background: #f7f7f7;
+    height: 1218px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-wrapper {
+    width: 982px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    width: 290px;
+    height: 393px;
+    margin: 0 17px 50px 0;
+    background: #fff;
+    display: inline-block;
+}
+
+.portfolio-item img {
+    height: 300px;
+    width: 100%;
+}
+
+.portfolio-item>h6 {
+    margin-top: 21px;
+	font: bold 18px Arial, sans-serif;
+	margin-bottom: 12px;
+}
+
+.portfolio-item>p {
+	font-size: 14px;
+	color: #737373;
+}
+
+.about-wrapper {
+	margin: 0 auto;
+	width: 940px;
+	height: 1666px;
+}
+
+.about {
+	text-align: center;
+	height: 264px;
+}
+.about-wrapper .about-wrap {
+	margin-bottom: 96px;
+	height: 191px;
+}
+
+.about-wrapper:first-child {
+	margin-top: 0;
+}
+.about-wrapper:nth-child(2) {
+	margin-top: 0;
+}
+
+
+.about-text {
+	text-align: right;
+	float: left;
+	width: 35%;
+}
+
+.about-text h5 {
+	line-height: 24px;
+	margin-top: 5px;
+}
+
+.about-text p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #777;
+	margin-bottom: 0;
+}
+
+
+.about-img, .about-link {
+
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	height: 177px;
+}
+
+.about-img::after {
+	content: " ";
+	display: block;
+	margin: -3px auto;
+	width: 3px;
+	height: 96px;
+	background: #f1f1f1;
+}
+
+.about-wrapper:first-child .about-wrap .about-img::after {
+	content: " ";
+	height: 0;
+}
+
+.about-img img, .about-link {
+	height: 177px;
+	width: 177px;
+	border: 7px solid #f1f1f1;
+	align-content: center;
+	margin-left: 42px;
+
+	border-radius: 50%;
+	--moz--border-radius: 50%;
+	--webkid--border-radius: 50%;
+	--o--border-radius: 50%;
+}
+
+.about-link {
+	margin: 0 376px auto;
+	background: #fed136;
+	text-decoration: none;
+	color: #fff;
+	font: bold 18px/1.5 Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px rgba(0,0,0,.3);
+}
+.about-link:hover {
+	background: #daae17;
+}
+
+.about-link span {
+	display: block;
+	margin-top: 30px;
+}
+
+.our-amazing {
+	width: 100%;
+	height: 820px;
+	background: #f7f7f7;
+}
+
+.amaz {
+	margin: 120px auto 0;
+	display: table;
+	text-align: center;
+}
+
+.amazing-wrapper {
+  display: inline;
+}
+
+.wrapper-ob {
+  margin: 0 auto;
+	display: table;
+}
+
+.amazing-wrapper .team{
+	display: inline-block;
+	margin: auto 30px;
+}
+
+.amazing-wrapper .img-wrap {
+	height: 220px;
+	width: 220px;
+  margin: auto;
+}
+
+.img-wrap img {
+	height: 100%;
+	width: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	box-sizing: border-box;
+}
+
+.team h2 {
+	font: bold 16px Arial, sans-serif;
+	color: #222;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.team p {
+  font: 14px Arial, sans-serif;
+  color: #777;
+  text-align: center;
+  margin-top: 13px;
+}
+
+/*-------------------------------Соціальні кнопки---------------------------------------*/
+
+.social-btn {
+  display: table;
+  margin: 0 auto;
+}
+
+.social-btn a {
+  background: url("images/Social-team.png") top no-repeat;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  margin: 13px 3px;
+	transition: 0.5s;
+}
+
+.social-btn .tw {
+  background-position: 1px 0;
+}
+
+.social-btn .fb {
+  background-position: -50px 0;
+
+}
+
+.social-btn .pi {
+  background-position: -100px 0;
+}
+
+.social-btn .gp {
+	background-position: -150px 0;
+}
+
+.social-btn a:hover {
+  background: url("images/Social-Hover.png") top no-repeat;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  margin: 13px 3px;
+	cursor: pointer;
+}
+
+.social-btn .tw:hover {
+  background-position: 1px 0;
+}
+
+.social-btn .fb:hover {
+  background-position: -50px 0;
+
+}
+
+.social-btn .pi:hover {
+  background-position: -100px 0;
+}
+
+.social-btn .gp:hover {
+	background-position: -150px 0;
+}
+
+.text .descr {
+  font-size: 16px;
+  color: #777777;
+  text-align: center;
+	margin-top: 55px;
+}
+
+.logos img {
+  display: inherit;
+  margin: 60px auto;
+}
+
+/*------------------------contact-us-------------------------*/
+
+.contact-us {
+    height: 676px;
+    width: 100%;
+    background: url("images/map-image.png") bottom right no-repeat, #222222;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+.forma {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.form input {
+	display: table;
+    width: 455px;
+    height: 50px;
+    margin: 0 30px 30px 0;
+	border-radius: 4px;
+	border: none;
+	padding-left: 20px;
+	font: bold 14px Arial, sans-serift;
+	color: #222222;
+}
+.form input:focus {
+	background: #fed136;
+}
+
+.form textarea {
+	position: absolute;
+	width: 422px;
+	height: 194px;
+	max-width: 422px;
+	max-height: 194px;
+	right: 0;
+	top: 0;
+	border-radius: 4px;
+	border: none;
+	font: bold 14px Arial, sans-serift;
+	padding-left: 21px;
+	padding-top: 20px;
+	line-height: 22px;
+	color: #222222;
+  resize: none;
+}
+.form textarea:focus {
+	background: #fed136;
+}
+
+.form input:last-child {
+	margin: 30px auto;
+	height: 65px;
+	width: 240px;
+	background: #fed136;
+	font: bold 24px Arial, san-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	color: #ffffff;
+	border-radius: 4px;
+
+}
+
+.form input:last-child:hover {
+	background: #daae17;
+	color: #ffffff;
+}
+
+/*----------------------------------footer--------------------------*/
+
+.footer {
+	height: 90px;
+	background: #ffffff;
+	position: relative;;
+}
+
+.copy {
+	position: absolute;
+	color: #555;
+	font-size: 14px;
+    margin: 28px auto;
+    margin-left: -355px;
+}
+
+.footer .social-btn {
+	margin: 20px auto;
+}
+
+.footer .social-btn a {
+	background: url("images/Social.png") no-repeat;
+}
+
+.footer .social-btn .tw {
+	background-position: 0 0;
+}
+
+.footer .social-btn .fb {
+	background-position: -50px 0;
+}
+
+.footer .social-btn .pi {
+	background-position: -100px 0;
+}
+
+.footer .social-btn .gp {
+	background-position: -150px 0;
+}
+
+.footer .social-btn a:hover {
+	background: url("images/Social-Hover.png") no-repeat;
+}
+
+.footer .social-btn .tw:hover {
+	background-position: 0 0;
+}
+
+.footer .social-btn .fb:hover {
+	background-position: -50px 0;
+}
+
+.footer .social-btn .pi:hover {
+	background-position: -100px 0;
+}
+
+.footer .social-btn .gp:hover {
+	background-position: -150px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear {
+    clear: both;
+}
+.right {
+	text-align: left;
+	float: right;
+}
+
+.left {
+	float: left;
+}
